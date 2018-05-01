@@ -1,0 +1,30 @@
+{
+  "name": "react-botui",
+  "version": "1.0.0",
+  "description": "React wrapper for the Botui API",
+  "main": "Botui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielcolson/react-botui.git"
+  },
+  "keywords": [
+    "React",
+    "botui",
+    "bot",
+    "react.js",
+    "javascript"
+  ],
+  "author": "Gabriel Colson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielcolson/react-botui/issues"
+  },
+  "homepage": "https://github.com/gabrielcolson/react-botui#readme",
+  "dependencies": {
+    "botui": "^0.3.4",
+    "react": "^16.3.2"
+  }
+}
