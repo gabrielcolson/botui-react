@@ -10,6 +10,9 @@ You can download the package from npm using npm or yarn
 
 ```
 npm i botui-react
+```
+Or
+```
 yarn add botui-react
 ```
 
@@ -37,7 +40,7 @@ Instantiate it in your jsx.
 Create a conversation.
 
 ```
-componentWillMount() {
+componentDidMount() {
     this.botui.message.bot({
         content: "Hello World",
         delay: 1000
