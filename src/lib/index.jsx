@@ -31,7 +31,13 @@ class Botui extends React.Component {
 
     action = {
         show(action) {
-              return this.botui.action.show(action);
+            if (action.type === 'button') {
+                return this.botui.action.button(action);
+            }
+            if (action.type === 'text') {
+                return this.botui.action.text(action);
+            }
+            return this.botui.action.show(action);
         },
         hide() {
             return this.botui.action.hide();
@@ -67,9 +73,9 @@ class Botui extends React.Component {
     render() {
         return (
             <div className="botui-app-container" id="react-botui" style={this.props.style}>
-                <bot-ui>ChatBot</bot-ui>
+                <bot-ui>Bot</bot-ui>
             </div>
-        )
+        );
     }
 }
 

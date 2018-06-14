@@ -1,0 +1,5 @@
+yarn.lock
+docs
+src
+.babelrc
+webpack.config.js
