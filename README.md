@@ -1,6 +1,6 @@
 # BotUI-React
 
-React wrapper for [BotUI API](https://botui.org)
+React wrapper for the [BotUI API](https://botui.org)
 
 ## Getting Started
 
