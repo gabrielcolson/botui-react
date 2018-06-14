@@ -1,6 +1,6 @@
 # BotUI-React
 
-React wrapper for BotUI API (botui.org)
+React wrapper for [BotUI API](https://botui.org)
 
 ## Getting Started
 
@@ -53,7 +53,7 @@ componentDidMount() {
 }
 ```
 
-For more examples, you can refer to the BotUI documentation : docs.botui.org
+For more examples, you can refer to the [BotUI documentation](https://docs.botui.org).
 
 ## License
 
