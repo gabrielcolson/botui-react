@@ -2,6 +2,8 @@
 
 React wrapper for the [BotUI API](https://botui.org)
 
+[Example](https://gabrielcolson.github.io/botui-react/)
+
 ## Getting Started
 
 ### Installing
